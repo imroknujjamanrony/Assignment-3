@@ -298,19 +298,21 @@
      </section>
   
   <!-- grid section -->
-   <section class="w-11/12 mx-auto">
-    <!-- container div -->
+   <section class=" bg-[#1e1e1e50]">
+    <!-- text div -->
      <div class="w-11/12 mx-auto text-center">
       <button class="bg-[#ABEF5F33] text-[#494949] text-base font-bold rounded-lg">Explore our Latest works</button>
       <h2 class="text-4xl text-[#212121] font-bold">Our Latest Portfolio</h2>
       <p class="text-base font-medium text-[#494949]">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
      </div>
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-2 mt-10">
-      <div class="h-[180px] rounded-lg col-span-12  lg:col-span-8 lg:flex gap-5">
-        <img src="./assets/img1.png" alt="">
+    <!-- grid container -->
+     <div class="w-11/12 mx-auto pb-14 grid grid-cols-1 lg:grid-cols-12 gap-2 mt-10">
+      <!-- 1st img -->
+      <div class="px-5 py-5 lg:h-[180px] bg-slate-100 lg:px-3 py-3 rounded-lg col-span-12  lg:col-span-8 lg:flex gap-5">
+        <img src="./assets/img1.png" alt="" class="w-[340px]">
         <div>
           <h2 class="text-[#494949] text-2xl font-extrabold">Commercial</h2>
-          <p class="text-[#737373] text-base font-medium py-2">The barn house captivates with its blend of rustic charm <br> and modern. The barn house captivates with its blend of <br> rustic charm and modern .</p>
+          <p class="text-[#737373] text-base font-medium py-2">The barn house captivates with its blend of rustic charm <br class="hidden lg:block"> and modern. The barn house captivates with its blend of <br class="hidden lg:block"> rustic charm and modern .</p>
           <button class="flex">
             <a class="text-xl font-extrabold list-none">View Details 
              </a>
@@ -324,25 +326,30 @@
           </button>
         </div>
       </div>
-      <div class="h-[180px] rounded-lg col-span-12 lg:col-span-3 ">
-        <img src="./assets/img2.png" alt="" class="object-cover h-full rounded-lg">
+      
+      <!-- 2nd img -->
+      <div class=" bg-slate-100 lg:px-3 py-3 lg:mt-1 rounded-lg col-span-12 lg:col-span-3 ">
+        <img src="./assets/img2.png" alt="" class="object-cover w-[350px] ml-4 lg:h-full lg:ml-1 rounded-lg">
       </div>
-      <div class="h-[180px] rounded-lg overflow-hidden  lg:col-span-3 ">
-        <img src="./assets/img3.png" alt="" class="object-cover w-full">
+      <!-- 3rd img -->
+      <div class="w-[380px] h-[220px] lg:h-[180px] rounded-lg px-4 bg-slate-100 lg:px-3 py-3 overflow-hidden  lg:col-span-3 ">
+        <img src="./assets/img3.png" alt="" class="lg:object-cover rounded-md w-full h-[200px] lg:h-[155px]">
       </div>
-      <div class="h-[180px] rounded-lg col-span-12 lg:col-span-6 lg:flex gap-5">
-        <img src="./assets/img4.png" alt="">
+      <!-- 4th img -->
+      <div class="lg:h-[180px] px-5 py-5 rounded-lg bg-slate-100 lg:px-3 lg:py-3 col-span-12 lg:col-span-6 lg:flex gap-5">
+        <img class="w-[350px] lg:w-auto" src="./assets/img4.png" alt="">
         <div>
           <h2 class="text-[#494949] text-2xl font-extrabold">Commercial</h2>
-          <p class="text-[#737373] text-base font-medium py-2">The barn house captivates with <br> its blend of rustic charm  and <br> modern.</p>
+          <p class="text-[#737373] text-base font-medium py-2">The barn house captivates with <br class="hidden lg:block"> its blend of rustic charm  and <br class="hidden lg:block"> modern.</p>
           <button class="flex text-xl font-extrabold pt-4">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-6 h-6 rounded-full bg-green-500">
               <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
             </svg>View Details</button>
         </div>
       </div>
-      <div class="w-[210px] rounded-lg col-span-12  lg:col-span-3 object-cover ">
-        <img src="./assets/img5.png" alt="">
+     <!-- 5th img -->
+      <div class="lg:w-[210px] bg-slate-100 lg:px-3 py-3 lg:mt-1 rounded-lg col-span-12  lg:col-span-3 object-cover ">
+        <img class="w-[300px] mx-auto" src="./assets/img5.png" alt="">
       </div>
     </div>
 
@@ -540,84 +547,6 @@ class="textarea textarea-bordered textarea-lg w-[370px] h-[240px] lg:w-[950px] l
      </div>
      </section>
 
-
-     <section class="w-11/12 mx-auto hidden">
-      <!-- main div -->
-      <div class="bg-no-repeat bg-cover bg-center w-full" 
-      style="background-image: url(./assets/bg-challenge.jpg);">
-         <h2 class="text-xl text-white font-black">CAPABILITIES</h2>
-         <p class="text-base text-white font-medium">the result of our company branding process is a comprehensive brand guidelines that can be used to design <br> a marketting website and other design assets like brand illustrations that reflects the new brand.</p>
-      
-         <!-- card parent -->
-         <div class="lg:flex gap-2 w-11/12 mx-auto">
-           <!-- 1 -->
-          <div>
-            <div class="card bg-base-100 w-96 shadow-xl">
-              <figure>
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                  alt="Shoes" />
-              </figure>
-              <div class="card-body">
-                <h2 class="card-title">Brand Strategy</h2>
-                <ul class="list-disc ">
-                  <li>Brand equity audit</li>
-                  <li>Audience analysis</li>
-                  <li>Competitive review</li>
-                  <li>Strategic direction</li>
-                </ul>
-                <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Click</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- 2 -->
-          <div>
-            <div class="card bg-base-100 w-96 shadow-xl">
-              <figure>
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                  alt="Shoes" />
-              </figure>
-              <div class="card-body">
-                <h2 class="card-title">BRAND IDENTITYh2>
-                <ul class="list-disc">
-                  <li>Visual positioning</li>
-                  <li>Visual identity system</li>
-                  <li>Icon & illustration guides</li>
-                  <li>Brand application</li>
-                </ul>
-                <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Click</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- 3 -->
-          <div>
-            <div class="card bg-base-100 w-96 shadow-xl">
-              <figure>
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                  alt="Shoes" />
-              </figure>
-              <div class="card-body">
-                <h2 class="card-title">TOP STRATEGY</h2>
-                <ul class="list-disc">
-                  <li>Verbal identity</li>
-                  <li>Tagline exploration</li>
-                  <li>Communication style guide</li>
-                </ul>
-                <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Click</button>
-                </div>
-              </div>
-            </div>
-          </div>
-         </div>
-        </div>
-     </section>
   
     </main>
 
